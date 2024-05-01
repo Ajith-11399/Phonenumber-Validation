@@ -17,5 +17,11 @@ body{
 }
 
 input{
-  padding: 5px !important;
+  margin-top: 20px !important;
+  padding: 15px !important;
+}
+
+button{
+  margin: 20px 0px !important;
+  width: 150px !important;
 }

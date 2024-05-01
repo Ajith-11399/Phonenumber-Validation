@@ -24,9 +24,11 @@ const box = document.createElement("div");
 box.classList = "col-lg-4 col-md-6 col-sm-12 bg";
 box.innerHTML = `
             <div class="">
-                <h5 class="card-text text-center mt-2 mb-2" id="">To know a number's Details</h5>
-                <input type="number" id="number" name="number" placeholder="Enter a Phone number">
-                <button id="verifyBtn" class="btn btn-primary">Verify!</button>
+                <h5 class="card-text text-center mt-2 mb-2" id="">Enter phone number with its country code!</h5>
+                <div class="row align-items-center d-flex flex-column">
+                <input type="number" id="number" class="form-control" name="number" placeholder="Enter a Phone number" required="">
+                <button type="submit" id="verifyBtn" class="btn btn-primary">Check!</button>
+                </div>
                 <table class="table table-borderless">
                     <thead>
                         <tr></tr>
